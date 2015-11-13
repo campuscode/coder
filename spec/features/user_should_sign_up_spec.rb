@@ -8,7 +8,8 @@ feature 'User should sign up' do
     click_on 'Sign Up'
 
     fill_in 'Email', with: 'joao@campuscode.com.br'
-    fill_in 'Password', with: '123456'
+    fill_in 'Password', with: '123456789'
+    fill_in 'Password confirmation', with: '123456789'
 
     click_on 'Sign up'
 
