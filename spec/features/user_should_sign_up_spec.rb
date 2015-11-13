@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'User should sign up' do
   scenario 'successfully' do
     pending
-    visit '/'
+    visit root_path
 
     click_on 'Sign Up'
 

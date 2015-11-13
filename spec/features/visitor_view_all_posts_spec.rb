@@ -6,7 +6,7 @@ feature 'Visitor view all posts' do
     post = Post.create(content: 'Este é um post')
     another_post = Post.create(content: 'Another post')
 
-    visit '/'
+    visit root_path
 
     expect(page).to have_content post.content
     expect(page).to have_content another_post.content
